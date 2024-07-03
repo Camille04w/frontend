@@ -1,9 +1,10 @@
 .body {
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
+   
 }
 
 .container {
@@ -21,6 +22,7 @@
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     text-align: center;
+    box-sizing: border-box;
 
     h1 {
         font-size: 3em;
@@ -32,15 +34,18 @@
         font-size: 2em;
         color: #666;
     }
-   
+
+
+
 }
-.logo{
-    width:130px ;
+
+.logo {
+    width: 130px;
     height: 130px;
 }
 
 
-.block{
+.block {
     background-color: white;
     padding: 40px;
     border-radius: 3px;
@@ -55,7 +60,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .input {
@@ -70,7 +75,7 @@
 
 .button {
     width: 320px;
-    height:45px;
+    height: 45px;
     padding: 0.8em;
     background-color: #007bff;
     color: #fff;
@@ -80,7 +85,7 @@
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: bold;
-    
+
 }
 
 .button:hover {

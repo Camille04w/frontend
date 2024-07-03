@@ -6,6 +6,7 @@ import Logo from '../img/logo.png';
 export default function Home() {
   return (
     <>
+    <div className={styles.all}>
       <div className={styles.body}>
         <Head>
           <title>Biblioteca Next</title>
@@ -24,6 +25,7 @@ export default function Home() {
             <a className={styles.link}>Não tem uma conta?</a>
           </div>
         </div>
+      </div>
       </div>
     </>
 
