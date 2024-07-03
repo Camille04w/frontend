@@ -22,7 +22,7 @@ export default function Login() {
               <input type="password" placeholder="Digite sua senha" className={styles.input} />
               <button type="submit" className={styles.button}>Entrar</button>
             </form>
-            <a href='#' className={styles.link}>Não tem uma conta?</a>
+            <a href='/cadastro' className={styles.link}>Não tem uma conta?</a>
           </div>
         </div>
       </div>
