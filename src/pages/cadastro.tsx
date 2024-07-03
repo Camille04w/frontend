@@ -16,7 +16,6 @@ export default function Cadastro() {
                     <div className={styles.container}>
                         <div className={styles.block}>
                             <div className={styles.logo}>
-                                
                                 <Image src={Logo} alt="Logo da Biblioteca Next" layout="intrinsic" />
                             </div>
                             <h4>Cadastro</h4>

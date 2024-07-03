@@ -17,6 +17,7 @@ export default function Login() {
             <div className={styles.logo}>
             <Image src={Logo} alt="Logo da Biblioteca Next" layout="intrinsic" />
             </div>
+            <h4>Login</h4>
             <form className={styles.form}>
               <input type="email" placeholder="Digite seu email" className={styles.input} />
               <input type="password" placeholder="Digite sua senha" className={styles.input} />
