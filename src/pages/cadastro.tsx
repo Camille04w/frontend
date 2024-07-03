@@ -16,8 +16,10 @@ export default function Cadastro() {
                     <div className={styles.container}>
                         <div className={styles.block}>
                             <div className={styles.logo}>
+                                
                                 <Image src={Logo} alt="Logo da Biblioteca Next" layout="intrinsic" />
                             </div>
+                            <h4>Cadastro</h4>
                             <form className={styles.form}>
                                 <input type="email" placeholder="Digite seu email" className={styles.input} />
                                 <input type="password" placeholder="Crie uma senha" className={styles.input} />
