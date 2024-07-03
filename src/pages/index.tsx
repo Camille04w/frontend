@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <div className={styles.body}>
         <Head>
-          <title>BiblioNext - Biblioteca do futuro</title>
+          <title>Biblioteca Next</title>
           <link rel="stylesheet" href="/styles/globals.scss" />
         </Head>
         <div className={styles.container}>
