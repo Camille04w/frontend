@@ -21,7 +21,7 @@ export default function Home() {
               <input type="password" placeholder="Digite sua senha" className={styles.input} />
               <button type="submit" className={styles.button}>Entrar</button>
             </form>
-            <p className={styles.link}>Não tem uma conta?</p>
+            <a className={styles.link}>Não tem uma conta?</a>
           </div>
         </div>
       </div>
